@@ -1,226 +1,226 @@
-Parent_County,Parent_County_FIPS_Code,Child_County,Child_County_FIPS_Code
-"""Adams County, WA""",53001,"""Adams County, WA""",53001
-"""Adams County, WA""",53001,"""Franklin County, WA""",53021
-"""Adams County, WA""",53001,"""Grant County, WA""",53025
-"""Adams County, WA""",53001,"""Lincoln County, WA""",53043
-"""Adams County, WA""",53001,"""Whitman County, WA""",53075
-"""Asotin County, WA""",53003,"""Asotin County, WA""",53003
-"""Asotin County, WA""",53003,"""Garfield County, WA""",53023
-"""Asotin County, WA""",53003,"""Whitman County, WA""",53075
-"""Benton County, WA""",53005,"""Benton County, WA""",53005
-"""Benton County, WA""",53005,"""Franklin County, WA""",53021
-"""Benton County, WA""",53005,"""Grant County, WA""",53025
-"""Benton County, WA""",53005,"""Klickitat County, WA""",53039
-"""Benton County, WA""",53005,"""Walla Walla County, WA""",53071
-"""Benton County, WA""",53005,"""Yakima County, WA""",53077
-"""Chelan County, WA""",53007,"""Chelan County, WA""",53007
-"""Chelan County, WA""",53007,"""Douglas County, WA""",53017
-"""Chelan County, WA""",53007,"""King County, WA""",53033
-"""Chelan County, WA""",53007,"""Kittitas County, WA""",53037
-"""Chelan County, WA""",53007,"""Okanogan County, WA""",53047
-"""Chelan County, WA""",53007,"""Skagit County, WA""",53057
-"""Chelan County, WA""",53007,"""Snohomish County, WA""",53061
-"""Clallam County, WA""",53009,"""Clallam County, WA""",53009
-"""Clallam County, WA""",53009,"""Jefferson County, WA""",53031
-"""Clallam County, WA""",53009,"""San Juan County, WA""",53055
-"""Clark County, WA""",53011,"""Clark County, WA""",53011
-"""Clark County, WA""",53011,"""Cowlitz County, WA""",53015
-"""Clark County, WA""",53011,"""Skamania County, WA""",53059
-"""Columbia County, WA""",53013,"""Columbia County, WA""",53013
-"""Columbia County, WA""",53013,"""Franklin County, WA""",53021
-"""Columbia County, WA""",53013,"""Garfield County, WA""",53023
-"""Columbia County, WA""",53013,"""Walla Walla County, WA""",53071
-"""Columbia County, WA""",53013,"""Whitman County, WA""",53075
-"""Cowlitz County, WA""",53015,"""Clark County, WA""",53011
-"""Cowlitz County, WA""",53015,"""Cowlitz County, WA""",53015
-"""Cowlitz County, WA""",53015,"""Lewis County, WA""",53041
-"""Cowlitz County, WA""",53015,"""Skamania County, WA""",53059
-"""Cowlitz County, WA""",53015,"""Wahkiakum County, WA""",53069
-"""Douglas County, WA""",53017,"""Chelan County, WA""",53007
-"""Douglas County, WA""",53017,"""Douglas County, WA""",53017
-"""Douglas County, WA""",53017,"""Grant County, WA""",53025
-"""Douglas County, WA""",53017,"""Kittitas County, WA""",53037
-"""Douglas County, WA""",53017,"""Okanogan County, WA""",53047
-"""Ferry County, WA""",53019,"""Ferry County, WA""",53019
-"""Ferry County, WA""",53019,"""Lincoln County, WA""",53043
-"""Ferry County, WA""",53019,"""Okanogan County, WA""",53047
-"""Ferry County, WA""",53019,"""Stevens County, WA""",53065
-"""Franklin County, WA""",53021,"""Adams County, WA""",53001
-"""Franklin County, WA""",53021,"""Benton County, WA""",53005
-"""Franklin County, WA""",53021,"""Columbia County, WA""",53013
-"""Franklin County, WA""",53021,"""Franklin County, WA""",53021
-"""Franklin County, WA""",53021,"""Grant County, WA""",53025
-"""Franklin County, WA""",53021,"""Walla Walla County, WA""",53071
-"""Franklin County, WA""",53021,"""Whitman County, WA""",53075
-"""Garfield County, WA""",53023,"""Asotin County, WA""",53003
-"""Garfield County, WA""",53023,"""Columbia County, WA""",53013
-"""Garfield County, WA""",53023,"""Garfield County, WA""",53023
-"""Garfield County, WA""",53023,"""Whitman County, WA""",53075
-"""Grant County, WA""",53025,"""Adams County, WA""",53001
-"""Grant County, WA""",53025,"""Benton County, WA""",53005
-"""Grant County, WA""",53025,"""Douglas County, WA""",53017
-"""Grant County, WA""",53025,"""Franklin County, WA""",53021
-"""Grant County, WA""",53025,"""Grant County, WA""",53025
-"""Grant County, WA""",53025,"""Kittitas County, WA""",53037
-"""Grant County, WA""",53025,"""Lincoln County, WA""",53043
-"""Grant County, WA""",53025,"""Okanogan County, WA""",53047
-"""Grant County, WA""",53025,"""Yakima County, WA""",53077
-"""Grays Harbor County, WA""",53027,"""Grays Harbor County, WA""",53027
-"""Grays Harbor County, WA""",53027,"""Jefferson County, WA""",53031
-"""Grays Harbor County, WA""",53027,"""Lewis County, WA""",53041
-"""Grays Harbor County, WA""",53027,"""Mason County, WA""",53045
-"""Grays Harbor County, WA""",53027,"""Pacific County, WA""",53049
-"""Grays Harbor County, WA""",53027,"""Thurston County, WA""",53067
-"""Island County, WA""",53029,"""Island County, WA""",53029
-"""Island County, WA""",53029,"""Jefferson County, WA""",53031
-"""Island County, WA""",53029,"""Kitsap County, WA""",53035
-"""Island County, WA""",53029,"""San Juan County, WA""",53055
-"""Island County, WA""",53029,"""Skagit County, WA""",53057
-"""Island County, WA""",53029,"""Snohomish County, WA""",53061
-"""Jefferson County, WA""",53031,"""Clallam County, WA""",53009
-"""Jefferson County, WA""",53031,"""Grays Harbor County, WA""",53027
-"""Jefferson County, WA""",53031,"""Island County, WA""",53029
-"""Jefferson County, WA""",53031,"""Jefferson County, WA""",53031
-"""Jefferson County, WA""",53031,"""Kitsap County, WA""",53035
-"""Jefferson County, WA""",53031,"""Mason County, WA""",53045
-"""Jefferson County, WA""",53031,"""San Juan County, WA""",53055
-"""King County, WA""",53033,"""Chelan County, WA""",53007
-"""King County, WA""",53033,"""King County, WA""",53033
-"""King County, WA""",53033,"""Kitsap County, WA""",53035
-"""King County, WA""",53033,"""Kittitas County, WA""",53037
-"""King County, WA""",53033,"""Pierce County, WA""",53053
-"""King County, WA""",53033,"""Snohomish County, WA""",53061
-"""King County, WA""",53033,"""Yakima County, WA""",53077
-"""Kitsap County, WA""",53035,"""Island County, WA""",53029
-"""Kitsap County, WA""",53035,"""Jefferson County, WA""",53031
-"""Kitsap County, WA""",53035,"""King County, WA""",53033
-"""Kitsap County, WA""",53035,"""Kitsap County, WA""",53035
-"""Kitsap County, WA""",53035,"""Mason County, WA""",53045
-"""Kitsap County, WA""",53035,"""Pierce County, WA""",53053
-"""Kitsap County, WA""",53035,"""Snohomish County, WA""",53061
-"""Kittitas County, WA""",53037,"""Chelan County, WA""",53007
-"""Kittitas County, WA""",53037,"""Douglas County, WA""",53017
-"""Kittitas County, WA""",53037,"""Grant County, WA""",53025
-"""Kittitas County, WA""",53037,"""King County, WA""",53033
-"""Kittitas County, WA""",53037,"""Kittitas County, WA""",53037
-"""Kittitas County, WA""",53037,"""Pierce County, WA""",53053
-"""Kittitas County, WA""",53037,"""Yakima County, WA""",53077
-"""Klickitat County, WA""",53039,"""Benton County, WA""",53005
-"""Klickitat County, WA""",53039,"""Klickitat County, WA""",53039
-"""Klickitat County, WA""",53039,"""Skamania County, WA""",53059
-"""Klickitat County, WA""",53039,"""Yakima County, WA""",53077
-"""Lewis County, WA""",53041,"""Cowlitz County, WA""",53015
-"""Lewis County, WA""",53041,"""Grays Harbor County, WA""",53027
-"""Lewis County, WA""",53041,"""Lewis County, WA""",53041
-"""Lewis County, WA""",53041,"""Pacific County, WA""",53049
-"""Lewis County, WA""",53041,"""Pierce County, WA""",53053
-"""Lewis County, WA""",53041,"""Skamania County, WA""",53059
-"""Lewis County, WA""",53041,"""Thurston County, WA""",53067
-"""Lewis County, WA""",53041,"""Wahkiakum County, WA""",53069
-"""Lewis County, WA""",53041,"""Yakima County, WA""",53077
-"""Lincoln County, WA""",53043,"""Adams County, WA""",53001
-"""Lincoln County, WA""",53043,"""Ferry County, WA""",53019
-"""Lincoln County, WA""",53043,"""Grant County, WA""",53025
-"""Lincoln County, WA""",53043,"""Lincoln County, WA""",53043
-"""Lincoln County, WA""",53043,"""Okanogan County, WA""",53047
-"""Lincoln County, WA""",53043,"""Spokane County, WA""",53063
-"""Lincoln County, WA""",53043,"""Stevens County, WA""",53065
-"""Lincoln County, WA""",53043,"""Whitman County, WA""",53075
-"""Mason County, WA""",53045,"""Grays Harbor County, WA""",53027
-"""Mason County, WA""",53045,"""Jefferson County, WA""",53031
-"""Mason County, WA""",53045,"""Kitsap County, WA""",53035
-"""Mason County, WA""",53045,"""Mason County, WA""",53045
-"""Mason County, WA""",53045,"""Pierce County, WA""",53053
-"""Mason County, WA""",53045,"""Thurston County, WA""",53067
-"""Okanogan County, WA""",53047,"""Chelan County, WA""",53007
-"""Okanogan County, WA""",53047,"""Douglas County, WA""",53017
-"""Okanogan County, WA""",53047,"""Ferry County, WA""",53019
-"""Okanogan County, WA""",53047,"""Grant County, WA""",53025
-"""Okanogan County, WA""",53047,"""Lincoln County, WA""",53043
-"""Okanogan County, WA""",53047,"""Okanogan County, WA""",53047
-"""Okanogan County, WA""",53047,"""Skagit County, WA""",53057
-"""Okanogan County, WA""",53047,"""Whatcom County, WA""",53073
-"""Pacific County, WA""",53049,"""Grays Harbor County, WA""",53027
-"""Pacific County, WA""",53049,"""Lewis County, WA""",53041
-"""Pacific County, WA""",53049,"""Pacific County, WA""",53049
-"""Pacific County, WA""",53049,"""Wahkiakum County, WA""",53069
-"""Pend Oreille County, WA""",53051,"""Pend Oreille County, WA""",53051
-"""Pend Oreille County, WA""",53051,"""Spokane County, WA""",53063
-"""Pend Oreille County, WA""",53051,"""Stevens County, WA""",53065
-"""Pierce County, WA""",53053,"""King County, WA""",53033
-"""Pierce County, WA""",53053,"""Kitsap County, WA""",53035
-"""Pierce County, WA""",53053,"""Kittitas County, WA""",53037
-"""Pierce County, WA""",53053,"""Lewis County, WA""",53041
-"""Pierce County, WA""",53053,"""Mason County, WA""",53045
-"""Pierce County, WA""",53053,"""Pierce County, WA""",53053
-"""Pierce County, WA""",53053,"""Thurston County, WA""",53067
-"""Pierce County, WA""",53053,"""Yakima County, WA""",53077
-"""San Juan County, WA""",53055,"""Clallam County, WA""",53009
-"""San Juan County, WA""",53055,"""Island County, WA""",53029
-"""San Juan County, WA""",53055,"""Jefferson County, WA""",53031
-"""San Juan County, WA""",53055,"""San Juan County, WA""",53055
-"""San Juan County, WA""",53055,"""Skagit County, WA""",53057
-"""San Juan County, WA""",53055,"""Whatcom County, WA""",53073
-"""Skagit County, WA""",53057,"""Chelan County, WA""",53007
-"""Skagit County, WA""",53057,"""Island County, WA""",53029
-"""Skagit County, WA""",53057,"""Okanogan County, WA""",53047
-"""Skagit County, WA""",53057,"""San Juan County, WA""",53055
-"""Skagit County, WA""",53057,"""Skagit County, WA""",53057
-"""Skagit County, WA""",53057,"""Snohomish County, WA""",53061
-"""Skagit County, WA""",53057,"""Whatcom County, WA""",53073
-"""Skamania County, WA""",53059,"""Clark County, WA""",53011
-"""Skamania County, WA""",53059,"""Cowlitz County, WA""",53015
-"""Skamania County, WA""",53059,"""Klickitat County, WA""",53039
-"""Skamania County, WA""",53059,"""Lewis County, WA""",53041
-"""Skamania County, WA""",53059,"""Skamania County, WA""",53059
-"""Skamania County, WA""",53059,"""Yakima County, WA""",53077
-"""Snohomish County, WA""",53061,"""Chelan County, WA""",53007
-"""Snohomish County, WA""",53061,"""Island County, WA""",53029
-"""Snohomish County, WA""",53061,"""King County, WA""",53033
-"""Snohomish County, WA""",53061,"""Kitsap County, WA""",53035
-"""Snohomish County, WA""",53061,"""Skagit County, WA""",53057
-"""Snohomish County, WA""",53061,"""Snohomish County, WA""",53061
-"""Spokane County, WA""",53063,"""Lincoln County, WA""",53043
-"""Spokane County, WA""",53063,"""Pend Oreille County, WA""",53051
-"""Spokane County, WA""",53063,"""Spokane County, WA""",53063
-"""Spokane County, WA""",53063,"""Stevens County, WA""",53065
-"""Spokane County, WA""",53063,"""Whitman County, WA""",53075
-"""Stevens County, WA""",53065,"""Ferry County, WA""",53019
-"""Stevens County, WA""",53065,"""Lincoln County, WA""",53043
-"""Stevens County, WA""",53065,"""Pend Oreille County, WA""",53051
-"""Stevens County, WA""",53065,"""Spokane County, WA""",53063
-"""Stevens County, WA""",53065,"""Stevens County, WA""",53065
-"""Thurston County, WA""",53067,"""Grays Harbor County, WA""",53027
-"""Thurston County, WA""",53067,"""Lewis County, WA""",53041
-"""Thurston County, WA""",53067,"""Mason County, WA""",53045
-"""Thurston County, WA""",53067,"""Pierce County, WA""",53053
-"""Thurston County, WA""",53067,"""Thurston County, WA""",53067
-"""Wahkiakum County, WA""",53069,"""Cowlitz County, WA""",53015
-"""Wahkiakum County, WA""",53069,"""Lewis County, WA""",53041
-"""Wahkiakum County, WA""",53069,"""Pacific County, WA""",53049
-"""Wahkiakum County, WA""",53069,"""Wahkiakum County, WA""",53069
-"""Walla Walla County, WA""",53071,"""Benton County, WA""",53005
-"""Walla Walla County, WA""",53071,"""Columbia County, WA""",53013
-"""Walla Walla County, WA""",53071,"""Franklin County, WA""",53021
-"""Walla Walla County, WA""",53071,"""Walla Walla County, WA""",53071
-"""Whatcom County, WA""",53073,"""Okanogan County, WA""",53047
-"""Whatcom County, WA""",53073,"""San Juan County, WA""",53055
-"""Whatcom County, WA""",53073,"""Skagit County, WA""",53057
-"""Whatcom County, WA""",53073,"""Whatcom County, WA""",53073
-"""Whitman County, WA""",53075,"""Adams County, WA""",53001
-"""Whitman County, WA""",53075,"""Asotin County, WA""",53003
-"""Whitman County, WA""",53075,"""Columbia County, WA""",53013
-"""Whitman County, WA""",53075,"""Franklin County, WA""",53021
-"""Whitman County, WA""",53075,"""Garfield County, WA""",53023
-"""Whitman County, WA""",53075,"""Lincoln County, WA""",53043
-"""Whitman County, WA""",53075,"""Spokane County, WA""",53063
-"""Whitman County, WA""",53075,"""Whitman County, WA""",53075
-"""Yakima County, WA""",53077,"""Benton County, WA""",53005
-"""Yakima County, WA""",53077,"""Grant County, WA""",53025
-"""Yakima County, WA""",53077,"""King County, WA""",53033
-"""Yakima County, WA""",53077,"""Kittitas County, WA""",53037
-"""Yakima County, WA""",53077,"""Klickitat County, WA""",53039
-"""Yakima County, WA""",53077,"""Lewis County, WA""",53041
-"""Yakima County, WA""",53077,"""Pierce County, WA""",53053
-"""Yakima County, WA""",53077,"""Skamania County, WA""",53059
-"""Yakima County, WA""",53077,"""Yakima County, WA""",53077
+parent_county_desc,parent_state_county,child_state_county_desc,child_state_county
+"Adams County, WA",53001,"Adams County, WA",53001
+"Adams County, WA",53001,"Franklin County, WA",53021
+"Adams County, WA",53001,"Grant County, WA",53025
+"Adams County, WA",53001,"Lincoln County, WA",53043
+"Adams County, WA",53001,"Whitman County, WA",53075
+"Asotin County, WA",53003,"Asotin County, WA",53003
+"Asotin County, WA",53003,"Garfield County, WA",53023
+"Asotin County, WA",53003,"Whitman County, WA",53075
+"Benton County, WA",53005,"Benton County, WA",53005
+"Benton County, WA",53005,"Franklin County, WA",53021
+"Benton County, WA",53005,"Grant County, WA",53025
+"Benton County, WA",53005,"Klickitat County, WA",53039
+"Benton County, WA",53005,"Walla Walla County, WA",53071
+"Benton County, WA",53005,"Yakima County, WA",53077
+"Chelan County, WA",53007,"Chelan County, WA",53007
+"Chelan County, WA",53007,"Douglas County, WA",53017
+"Chelan County, WA",53007,"King County, WA",53033
+"Chelan County, WA",53007,"Kittitas County, WA",53037
+"Chelan County, WA",53007,"Okanogan County, WA",53047
+"Chelan County, WA",53007,"Skagit County, WA",53057
+"Chelan County, WA",53007,"Snohomish County, WA",53061
+"Clallam County, WA",53009,"Clallam County, WA",53009
+"Clallam County, WA",53009,"Jefferson County, WA",53031
+"Clallam County, WA",53009,"San Juan County, WA",53055
+"Clark County, WA",53011,"Clark County, WA",53011
+"Clark County, WA",53011,"Cowlitz County, WA",53015
+"Clark County, WA",53011,"Skamania County, WA",53059
+"Columbia County, WA",53013,"Columbia County, WA",53013
+"Columbia County, WA",53013,"Franklin County, WA",53021
+"Columbia County, WA",53013,"Garfield County, WA",53023
+"Columbia County, WA",53013,"Walla Walla County, WA",53071
+"Columbia County, WA",53013,"Whitman County, WA",53075
+"Cowlitz County, WA",53015,"Clark County, WA",53011
+"Cowlitz County, WA",53015,"Cowlitz County, WA",53015
+"Cowlitz County, WA",53015,"Lewis County, WA",53041
+"Cowlitz County, WA",53015,"Skamania County, WA",53059
+"Cowlitz County, WA",53015,"Wahkiakum County, WA",53069
+"Douglas County, WA",53017,"Chelan County, WA",53007
+"Douglas County, WA",53017,"Douglas County, WA",53017
+"Douglas County, WA",53017,"Grant County, WA",53025
+"Douglas County, WA",53017,"Kittitas County, WA",53037
+"Douglas County, WA",53017,"Okanogan County, WA",53047
+"Ferry County, WA",53019,"Ferry County, WA",53019
+"Ferry County, WA",53019,"Lincoln County, WA",53043
+"Ferry County, WA",53019,"Okanogan County, WA",53047
+"Ferry County, WA",53019,"Stevens County, WA",53065
+"Franklin County, WA",53021,"Adams County, WA",53001
+"Franklin County, WA",53021,"Benton County, WA",53005
+"Franklin County, WA",53021,"Columbia County, WA",53013
+"Franklin County, WA",53021,"Franklin County, WA",53021
+"Franklin County, WA",53021,"Grant County, WA",53025
+"Franklin County, WA",53021,"Walla Walla County, WA",53071
+"Franklin County, WA",53021,"Whitman County, WA",53075
+"Garfield County, WA",53023,"Asotin County, WA",53003
+"Garfield County, WA",53023,"Columbia County, WA",53013
+"Garfield County, WA",53023,"Garfield County, WA",53023
+"Garfield County, WA",53023,"Whitman County, WA",53075
+"Grant County, WA",53025,"Adams County, WA",53001
+"Grant County, WA",53025,"Benton County, WA",53005
+"Grant County, WA",53025,"Douglas County, WA",53017
+"Grant County, WA",53025,"Franklin County, WA",53021
+"Grant County, WA",53025,"Grant County, WA",53025
+"Grant County, WA",53025,"Kittitas County, WA",53037
+"Grant County, WA",53025,"Lincoln County, WA",53043
+"Grant County, WA",53025,"Okanogan County, WA",53047
+"Grant County, WA",53025,"Yakima County, WA",53077
+"Grays Harbor County, WA",53027,"Grays Harbor County, WA",53027
+"Grays Harbor County, WA",53027,"Jefferson County, WA",53031
+"Grays Harbor County, WA",53027,"Lewis County, WA",53041
+"Grays Harbor County, WA",53027,"Mason County, WA",53045
+"Grays Harbor County, WA",53027,"Pacific County, WA",53049
+"Grays Harbor County, WA",53027,"Thurston County, WA",53067
+"Island County, WA",53029,"Island County, WA",53029
+"Island County, WA",53029,"Jefferson County, WA",53031
+"Island County, WA",53029,"Kitsap County, WA",53035
+"Island County, WA",53029,"San Juan County, WA",53055
+"Island County, WA",53029,"Skagit County, WA",53057
+"Island County, WA",53029,"Snohomish County, WA",53061
+"Jefferson County, WA",53031,"Clallam County, WA",53009
+"Jefferson County, WA",53031,"Grays Harbor County, WA",53027
+"Jefferson County, WA",53031,"Island County, WA",53029
+"Jefferson County, WA",53031,"Jefferson County, WA",53031
+"Jefferson County, WA",53031,"Kitsap County, WA",53035
+"Jefferson County, WA",53031,"Mason County, WA",53045
+"Jefferson County, WA",53031,"San Juan County, WA",53055
+"King County, WA",53033,"Chelan County, WA",53007
+"King County, WA",53033,"King County, WA",53033
+"King County, WA",53033,"Kitsap County, WA",53035
+"King County, WA",53033,"Kittitas County, WA",53037
+"King County, WA",53033,"Pierce County, WA",53053
+"King County, WA",53033,"Snohomish County, WA",53061
+"King County, WA",53033,"Yakima County, WA",53077
+"Kitsap County, WA",53035,"Island County, WA",53029
+"Kitsap County, WA",53035,"Jefferson County, WA",53031
+"Kitsap County, WA",53035,"King County, WA",53033
+"Kitsap County, WA",53035,"Kitsap County, WA",53035
+"Kitsap County, WA",53035,"Mason County, WA",53045
+"Kitsap County, WA",53035,"Pierce County, WA",53053
+"Kitsap County, WA",53035,"Snohomish County, WA",53061
+"Kittitas County, WA",53037,"Chelan County, WA",53007
+"Kittitas County, WA",53037,"Douglas County, WA",53017
+"Kittitas County, WA",53037,"Grant County, WA",53025
+"Kittitas County, WA",53037,"King County, WA",53033
+"Kittitas County, WA",53037,"Kittitas County, WA",53037
+"Kittitas County, WA",53037,"Pierce County, WA",53053
+"Kittitas County, WA",53037,"Yakima County, WA",53077
+"Klickitat County, WA",53039,"Benton County, WA",53005
+"Klickitat County, WA",53039,"Klickitat County, WA",53039
+"Klickitat County, WA",53039,"Skamania County, WA",53059
+"Klickitat County, WA",53039,"Yakima County, WA",53077
+"Lewis County, WA",53041,"Cowlitz County, WA",53015
+"Lewis County, WA",53041,"Grays Harbor County, WA",53027
+"Lewis County, WA",53041,"Lewis County, WA",53041
+"Lewis County, WA",53041,"Pacific County, WA",53049
+"Lewis County, WA",53041,"Pierce County, WA",53053
+"Lewis County, WA",53041,"Skamania County, WA",53059
+"Lewis County, WA",53041,"Thurston County, WA",53067
+"Lewis County, WA",53041,"Wahkiakum County, WA",53069
+"Lewis County, WA",53041,"Yakima County, WA",53077
+"Lincoln County, WA",53043,"Adams County, WA",53001
+"Lincoln County, WA",53043,"Ferry County, WA",53019
+"Lincoln County, WA",53043,"Grant County, WA",53025
+"Lincoln County, WA",53043,"Lincoln County, WA",53043
+"Lincoln County, WA",53043,"Okanogan County, WA",53047
+"Lincoln County, WA",53043,"Spokane County, WA",53063
+"Lincoln County, WA",53043,"Stevens County, WA",53065
+"Lincoln County, WA",53043,"Whitman County, WA",53075
+"Mason County, WA",53045,"Grays Harbor County, WA",53027
+"Mason County, WA",53045,"Jefferson County, WA",53031
+"Mason County, WA",53045,"Kitsap County, WA",53035
+"Mason County, WA",53045,"Mason County, WA",53045
+"Mason County, WA",53045,"Pierce County, WA",53053
+"Mason County, WA",53045,"Thurston County, WA",53067
+"Okanogan County, WA",53047,"Chelan County, WA",53007
+"Okanogan County, WA",53047,"Douglas County, WA",53017
+"Okanogan County, WA",53047,"Ferry County, WA",53019
+"Okanogan County, WA",53047,"Grant County, WA",53025
+"Okanogan County, WA",53047,"Lincoln County, WA",53043
+"Okanogan County, WA",53047,"Okanogan County, WA",53047
+"Okanogan County, WA",53047,"Skagit County, WA",53057
+"Okanogan County, WA",53047,"Whatcom County, WA",53073
+"Pacific County, WA",53049,"Grays Harbor County, WA",53027
+"Pacific County, WA",53049,"Lewis County, WA",53041
+"Pacific County, WA",53049,"Pacific County, WA",53049
+"Pacific County, WA",53049,"Wahkiakum County, WA",53069
+"Pend Oreille County, WA",53051,"Pend Oreille County, WA",53051
+"Pend Oreille County, WA",53051,"Spokane County, WA",53063
+"Pend Oreille County, WA",53051,"Stevens County, WA",53065
+"Pierce County, WA",53053,"King County, WA",53033
+"Pierce County, WA",53053,"Kitsap County, WA",53035
+"Pierce County, WA",53053,"Kittitas County, WA",53037
+"Pierce County, WA",53053,"Lewis County, WA",53041
+"Pierce County, WA",53053,"Mason County, WA",53045
+"Pierce County, WA",53053,"Pierce County, WA",53053
+"Pierce County, WA",53053,"Thurston County, WA",53067
+"Pierce County, WA",53053,"Yakima County, WA",53077
+"San Juan County, WA",53055,"Clallam County, WA",53009
+"San Juan County, WA",53055,"Island County, WA",53029
+"San Juan County, WA",53055,"Jefferson County, WA",53031
+"San Juan County, WA",53055,"San Juan County, WA",53055
+"San Juan County, WA",53055,"Skagit County, WA",53057
+"San Juan County, WA",53055,"Whatcom County, WA",53073
+"Skagit County, WA",53057,"Chelan County, WA",53007
+"Skagit County, WA",53057,"Island County, WA",53029
+"Skagit County, WA",53057,"Okanogan County, WA",53047
+"Skagit County, WA",53057,"San Juan County, WA",53055
+"Skagit County, WA",53057,"Skagit County, WA",53057
+"Skagit County, WA",53057,"Snohomish County, WA",53061
+"Skagit County, WA",53057,"Whatcom County, WA",53073
+"Skamania County, WA",53059,"Clark County, WA",53011
+"Skamania County, WA",53059,"Cowlitz County, WA",53015
+"Skamania County, WA",53059,"Klickitat County, WA",53039
+"Skamania County, WA",53059,"Lewis County, WA",53041
+"Skamania County, WA",53059,"Skamania County, WA",53059
+"Skamania County, WA",53059,"Yakima County, WA",53077
+"Snohomish County, WA",53061,"Chelan County, WA",53007
+"Snohomish County, WA",53061,"Island County, WA",53029
+"Snohomish County, WA",53061,"King County, WA",53033
+"Snohomish County, WA",53061,"Kitsap County, WA",53035
+"Snohomish County, WA",53061,"Skagit County, WA",53057
+"Snohomish County, WA",53061,"Snohomish County, WA",53061
+"Spokane County, WA",53063,"Lincoln County, WA",53043
+"Spokane County, WA",53063,"Pend Oreille County, WA",53051
+"Spokane County, WA",53063,"Spokane County, WA",53063
+"Spokane County, WA",53063,"Stevens County, WA",53065
+"Spokane County, WA",53063,"Whitman County, WA",53075
+"Stevens County, WA",53065,"Ferry County, WA",53019
+"Stevens County, WA",53065,"Lincoln County, WA",53043
+"Stevens County, WA",53065,"Pend Oreille County, WA",53051
+"Stevens County, WA",53065,"Spokane County, WA",53063
+"Stevens County, WA",53065,"Stevens County, WA",53065
+"Thurston County, WA",53067,"Grays Harbor County, WA",53027
+"Thurston County, WA",53067,"Lewis County, WA",53041
+"Thurston County, WA",53067,"Mason County, WA",53045
+"Thurston County, WA",53067,"Pierce County, WA",53053
+"Thurston County, WA",53067,"Thurston County, WA",53067
+"Wahkiakum County, WA",53069,"Cowlitz County, WA",53015
+"Wahkiakum County, WA",53069,"Lewis County, WA",53041
+"Wahkiakum County, WA",53069,"Pacific County, WA",53049
+"Wahkiakum County, WA",53069,"Wahkiakum County, WA",53069
+"Walla Walla County, WA",53071,"Benton County, WA",53005
+"Walla Walla County, WA",53071,"Columbia County, WA",53013
+"Walla Walla County, WA",53071,"Franklin County, WA",53021
+"Walla Walla County, WA",53071,"Walla Walla County, WA",53071
+"Whatcom County, WA",53073,"Okanogan County, WA",53047
+"Whatcom County, WA",53073,"San Juan County, WA",53055
+"Whatcom County, WA",53073,"Skagit County, WA",53057
+"Whatcom County, WA",53073,"Whatcom County, WA",53073
+"Whitman County, WA",53075,"Adams County, WA",53001
+"Whitman County, WA",53075,"Asotin County, WA",53003
+"Whitman County, WA",53075,"Columbia County, WA",53013
+"Whitman County, WA",53075,"Franklin County, WA",53021
+"Whitman County, WA",53075,"Garfield County, WA",53023
+"Whitman County, WA",53075,"Lincoln County, WA",53043
+"Whitman County, WA",53075,"Spokane County, WA",53063
+"Whitman County, WA",53075,"Whitman County, WA",53075
+"Yakima County, WA",53077,"Benton County, WA",53005
+"Yakima County, WA",53077,"Grant County, WA",53025
+"Yakima County, WA",53077,"King County, WA",53033
+"Yakima County, WA",53077,"Kittitas County, WA",53037
+"Yakima County, WA",53077,"Klickitat County, WA",53039
+"Yakima County, WA",53077,"Lewis County, WA",53041
+"Yakima County, WA",53077,"Pierce County, WA",53053
+"Yakima County, WA",53077,"Skamania County, WA",53059
+"Yakima County, WA",53077,"Yakima County, WA",53077
