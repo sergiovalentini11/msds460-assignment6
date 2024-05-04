@@ -1,5 +1,6 @@
 import pandas as pd
 from pulp import *
+import numpy as np
 
 # Read in the census data
 df = pd.read_csv("001. Data Bases/washington_census_data.csv")
@@ -23,7 +24,8 @@ print(target_pop)
 # them their own districts too. This leaves us with 36 counties to fill 5 districts, which gives us 180 decision variables.
 
 # With these counties excluded, we need a new target population for the remaining counties. 
-remaining_target_pop = (total_pop - 1813470 - 709366 - 639797) / 5
+num_remaining_districts = 5
+remaining_target_pop = (total_pop - 1813470 - 709366 - 639797) / num_remaining_districts
 print(remaining_target_pop)
 
 # The target population for the remaining counties is 572411. We want our 5 remaining districts to have populations that are close to that number,
@@ -31,30 +33,67 @@ print(remaining_target_pop)
 
 # List of the counties
 counties = df['state_county'].tolist()
+print(counties)
+
+# Excluding the top 3 most populated counties
+remaining_counties = counties[3:]
+num_remaining_counties = len(remaining_counties)
 
 # List of districts (1st - 5th are accounted for by King, Pierce, and Snohomish counties)
-districts = ['6th', '7th', '8th', '9th', '10th']
+# districts = ['6th', '7th', '8th', '9th', '10th']
 
-# Dictionary with counties and their populations
-county_pops = df.set_index('state_county')['Total_Population'].to_dict()
 
-# Create the binary variables for each county/district pair
-designate = pulp.LpVariable.dicts("Designate", [(c, d) for c in counties for d in districts], 0, 1, cat='Integer')
+# Array with county populations, excluding the 3 largest counties
+county_pops = np.array(df['Total_Population'])
+removed_counties = [0,1,2]
+county_pops = np.delete(county_pops, removed_counties)
+print(county_pops)
+
+
 
 # Define the IP problem
-prob = LpProblem("problem", LpMinimize)
+prob = LpProblem("Redistricting-Problem", LpMinimize)
+
+var_names = [str(i)+str(j) for j in range(1, num_remaining_districts+1) \
+                                for i in range(1, num_remaining_counties+1)]
+
+var_names.sort()
+print(var_names)
+
+# The Decision Variable is 1 if the county is assigned to the district.
+DV_variable_y = LpVariable.matrix("Y", var_names, cat="Binary")
+assignment = np.array(DV_variable_y).reshape(36,5)
+
+# The Decision Variable is the population allocated to the district.
+DV_variable_x = LpVariable.matrix("X", var_names, cat="Integer",
+                                  lowBound=0)
+allocation = np.array(DV_variable_x).reshape(36,5)    
+
+# Objective function minimizes the counties split among multiple districts
+objective_function = lpSum(assignment) 
+prob += objective_function
 
 
-# Objective function 
+# Constraints
 
+# Allocate 100% of the population from each county.
+for i in range(num_remaining_counties):
+    prob += lpSum(allocation[i][j] for j in range(num_remaining_districts)) == county_pops[i] , "Allocate All " + str(i)
 
-# Constraint: each county is assigned only 1 district
-for c in counties:
-    prob += pulp.lpSum(designate[(c, d)] for d in districts) == 1
+# This constraint makes assignment required for allocation.
+# sum(county_populations) is the "big M"
+# At least 20% of population must be allocated for any assignment.
+for i in range(num_remaining_counties): 
+    for j in range(num_remaining_districts):
+        prob += allocation[i][j] <= sum(county_pops)*assignment[i][j] \
+                 , "Allocation assignment " + str(i) + str(j)
+        if assignment[i][j] == 1:
+            prob += allocation[i][j] >= assignment[i][j]*0.20*county_pops[i] \
+                     , "Allocation min " + str(i) + str(j)
+            
 
+# Solve the model.
+prob.solve() 
 
-# Constraint: each district has roughly equal population
-for d in districts:
-    prob += pulp.lpSum(designate[(c, d)] * county_pops[c] for c in counties) >= 0.9 * remaining_target_pop
-    prob += pulp.lpSum(designate[(c, d)] * county_pops[c] for c in counties) <= 1.1 * remaining_target_pop
-
+print('The model status is: ',LpStatus[prob.status])
+print('The objective value is: ', value(objective_function))
