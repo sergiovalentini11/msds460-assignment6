@@ -97,3 +97,6 @@ prob.solve()
 
 print('The model status is: ',LpStatus[prob.status])
 print('The objective value is: ', value(objective_function))
+
+for variable in prob.variables():
+    print(f"{variable.name} = {variable.varValue}")
