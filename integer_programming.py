@@ -1,4 +1,5 @@
 import pandas as pd
+from pulp import *
 
 # Read in the census data
 df = pd.read_csv("001. Data Bases/washington_census_data.csv")
@@ -33,4 +34,27 @@ counties = df['state_county'].tolist()
 
 # List of districts (1st - 5th are accounted for by King, Pierce, and Snohomish counties)
 districts = ['6th', '7th', '8th', '9th', '10th']
+
+# Dictionary with counties and their populations
+county_pops = df.set_index('state_county')['Total_Population'].to_dict()
+
+# Create the binary variables for each county/district pair
+designate = pulp.LpVariable.dicts("Designate", [(c, d) for c in counties for d in districts], 0, 1, cat='Integer')
+
+# Define the IP problem
+prob = LpProblem("problem", LpMinimize)
+
+
+# Objective function 
+
+
+# Constraint: each county is assigned only 1 district
+for c in counties:
+    prob += pulp.lpSum(designate[(c, d)] for d in districts) == 1
+
+
+# Constraint: each district has roughly equal population
+for d in districts:
+    prob += pulp.lpSum(designate[(c, d)] * county_pops[c] for c in counties) >= 0.9 * remaining_target_pop
+    prob += pulp.lpSum(designate[(c, d)] * county_pops[c] for c in counties) <= 1.1 * remaining_target_pop
 
