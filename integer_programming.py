@@ -50,7 +50,6 @@ county_pops = np.delete(county_pops, removed_counties)
 print(county_pops)
 
 
-
 # Define the IP problem
 prob = LpProblem("Redistricting-Problem", LpMinimize)
 
@@ -92,11 +91,30 @@ for i in range(num_remaining_counties):
                      , "Allocation min " + str(i) + str(j)
             
 
-# Solve the model.
+# Contiguous district constraints
+# prob += assignment[0][j] <= assignment[11][j]+assignment[22][j]+assignment[30][j]+assignment[31][j]  
+            
+pop_upper_bound = remaining_target_pop + (remaining_target_pop * .1)
+pop_lower_bound = remaining_target_pop - (remaining_target_pop * .1)
+print(pop_lower_bound, pop_upper_bound)
+
+# District size constraints
+for j in range(num_remaining_districts):
+    prob += lpSum(allocation[i][j] for i in range(num_remaining_counties)) <= pop_upper_bound , "District Size Maximum " + str(j)
+    prob += lpSum(allocation[i][j] for i in range(num_remaining_counties)) >= pop_lower_bound , "District Size Minimum " + str(j)
+
+
+# Solve the model
 prob.solve() 
 
+# Print the results
 print('The model status is: ',LpStatus[prob.status])
 print('The objective value is: ', value(objective_function))
 
-for variable in prob.variables():
-    print(f"{variable.name} = {variable.varValue}")
+# This prints out all the county assignments. 
+# I.e. Y_102 = 1.0 means that County 10 is assigned to district 2
+# or Y_14 = 1.0 means that County 1 is assigned to district 4
+
+for var in prob.variables():
+    if var.varValue == 1:
+        print(f"{var.name} = {var.varValue}")
