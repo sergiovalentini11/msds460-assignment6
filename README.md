@@ -13,3 +13,5 @@ integer_programming.py: the primary code file, uses PuLP to create and solve the
 Actual Districts.pdf: the 2021 Washington State Congressional District Map, sourced from https://www.redistricting.wa.gov/district-maps-handouts
 
 Redistriced Counties.png: the districts resulting from the integer_programming.py model output
+
+output.txt: output of integer_programming.py
