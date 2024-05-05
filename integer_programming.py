@@ -203,4 +203,11 @@ answers_df['District'] = list_of_dist_assignments
 
 answers_df['District'] = answers_df['District'].str[5:]
 
+# sum the Total_Population for each district
+district_populations = answers_df.groupby('District').sum()
+
+# drop the columns that are not needed
+district_populations = district_populations.drop(columns=['Total_Population_White_Alone', 'Latitude', 'Longitude', 'Name', 'state_county'])
+
 print(answers_df)
+print(district_populations)
